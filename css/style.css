@@ -1,4 +1,4 @@
-.nav-bar a:link, a:visited {
+.link-bar a:link, a:visited {
 	display: block;
 	font-weight: bold;
 	background-color: #3366FF;
@@ -7,6 +7,6 @@
 	color: #FFFFFF;
 	font-size: 1.5em;
 }
-.nav-bar a:hover, a:active {
+.link-bar a:hover, a:active {
 	background-color: #0033CC;
 }
