@@ -1,20 +1,12 @@
-ul {
-	list-style-type:none;
-}
-li {
-	float:left;
-}
-a:link, a:visited {
+.nav-bar a:link, a:visited {
 	display: block;
-	width: 200px;
 	font-weight: bold;
 	background-color: #3366FF;
 	text-align: center;
 	padding: 8px;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 1.5em;
 }
-
-a:hover, a:active {
+.nav-bar a:hover, a:active {
 	background-color: #0033CC;
 }
