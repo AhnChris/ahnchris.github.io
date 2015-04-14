@@ -1,12 +1,7 @@
-.link-bar a:link, a:visited {
-	display: block;
-	font-weight: bold;
-	background-color: #3366FF;
-	text-align: center;
-	padding: 8px;
-	color: #FFFFFF;
-	font-size: 1.5em;
+.navibar a {
+	background-color: #B2B2B2;
 }
-.link-bar a:hover, a:active {
-	background-color: #0033CC;
+
+.icon {
+	color: #FF33CC;
 }
