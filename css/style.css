@@ -1,7 +1,24 @@
-.navibar a {
-	background-color: #B2B2B2;
+.navbar-default {
+	background-color: #CFCFCF;
+	opacity: 0.5;
 }
 
-.icon {
-	color: #FF33CC;
+.navbar-default .navbar-brand {
+	color: #0066FF;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #CFCFCF;
+	background-color: #0066FF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #0066FF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #CFCFCF;
+    background-color: #0066FF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #CFCFCF;
 }
