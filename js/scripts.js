@@ -1,2 +1,2 @@
-var aboutText = "Sample Text";
+var aboutText = "";
 document.getElementById("about").innerHTML = aboutText;
