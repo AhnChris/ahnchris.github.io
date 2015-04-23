@@ -1,6 +1,19 @@
+html, body {
+	height: 100%;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+}
+
+.navbar {
+	width: 100%;
+}
+
 .navbar-default {
 	background-color: #CFCFCF;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .navbar-default .navbar-brand {
@@ -15,10 +28,37 @@
 .navbar-default .navbar-nav > li > a {
     color: #0066FF;
 }
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #CFCFCF;
     background-color: #0066FF;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #CFCFCF;
+  	background-color: #CFCFCF;
+}
+
+.jumbotron {
+	background-image:url(../img/sf.jpg);
+	/* image from www.wallpapers-in-hd.com */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 93%;
+	margin: 0;
+}
+
+.head {
+	color: #E6E6E6;
+	text-align: center;
+}
+
+.head-detail {
+	font-size: 20px;
+}
+
+.about {
+	width: 70%;
+    font-family:Georgia;
 }
