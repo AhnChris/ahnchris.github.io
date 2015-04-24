@@ -38,27 +38,33 @@ html, body {
   	background-color: #CFCFCF;
 }
 
-.jumbotron {
+.jumbotron{
 	background-image:url(../img/sf.jpg);
-	/* image from www.wallpapers-in-hd.com */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 93%;
 	margin: 0;
+	font-family: Helvetica;
 }
 
-.head {
+.intro {
 	color: #E6E6E6;
 	text-align: center;
 }
 
-.head-detail {
-	font-size: 20px;
+.intro-detail {
+	color: #E6E6E6;
+	text-align: center;
 }
 
-.about {
+.about-section {
 	width: 70%;
-    font-family:Georgia;
+    font-family: fantasy;
+}
+
+.footer-section{
+	font-size: 10em;
+	background-color: #fff;
 }
