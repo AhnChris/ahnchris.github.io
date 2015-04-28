@@ -3,7 +3,7 @@ var aboutText = "I'm a recent graduate of the University of California, Riversid
 				" I like to build embedded systems, but recently I have discovered that I enjoy" +
 				" developing software much more, mainly mobile apps. I also enjoy problem solving" +
 				" and learning new technologies.";
-document.getElementById("about").innerHTML = aboutText;
+document.getElementById("aboutBlock").innerHTML = aboutText;
 
 
 
