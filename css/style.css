@@ -22,6 +22,7 @@ html, body {
 
 .navbar-default .navbar-brand {
 	color: #0066FF;
+	font-size: 2em;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -76,7 +77,14 @@ html, body {
 }
 
 
-.footer-section{
+.footer-section {
 	font-size: 10em;
-	background-color: #fff;
+}
+
+.footer-section a:link {
+	color: gray;
+}
+
+.footer-section a:hover {
+	color: #3385ff;
 }
