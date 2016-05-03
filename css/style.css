@@ -39,8 +39,12 @@ html, body {
     background-color: #0066FF;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .icon-bar {
   	background-color: #CFCFCF;
+}
+
+.navbar-toggle {
+	background-color:#0066FF;
 }
 
 .jumbotron{
